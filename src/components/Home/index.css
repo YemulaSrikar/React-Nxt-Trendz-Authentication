@@ -1,0 +1,85 @@
+/* Write your CSS code here */
+.clothes-image-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+}
+
+.desc-container {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .desc-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.icons-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #e6f6ff;
+  padding: 18px;
+}
+@media screen and (min-width: 768px) {
+  .icons-container {
+    display: none;
+  }
+}
+.icons {
+  height: 40px;
+}
+
+.clothes-heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 60px;
+  font-weight: 700;
+}
+@media screen and (max-width: 768px) {
+  .clothes-heading {
+    font-size: 30px;
+  }
+}
+
+.clothes-desc {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: none;
+}
+
+.shop-button {
+  color: #ffffff;
+  background-color: #0967d2;
+  height: 40px;
+  width: 120px;
+  border-width: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.clothes-image {
+  height: 500px;
+}
+@media screen and (max-width: 768px) {
+  .clothes-image {
+    display: none;
+  }
+}
+.clothes-images {
+  height: 300px;
+  width: 70%;
+  margin-top: 20px;
+}
+@media screen and (min-width: 768px) {
+  .clothes-images {
+    display: none;
+  }
+}
